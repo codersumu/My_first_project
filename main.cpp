@@ -40,7 +40,7 @@ class  config{
     public:
     string display;
     int refrsh_rate;
-    void D(string i){ // constructor
+    void D(string i){ //method
       display =i;
       
      
@@ -104,9 +104,9 @@ void review(){
 };
 
 int main(){
-    PS hlw("12gb","512gb");
+    PS hlw("12gb","512gb");//object
     hlw.description();
-    hlw.Dis("Apple","13 pro");
+    hlw.Dis("Apple","13 pro"); 
     hlw.D("OLED");
     hlw.show();
     hlw.camera("16 megapixel","12 megapixel");
